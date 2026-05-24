@@ -1,0 +1,9 @@
+export default function SectionHeader({ eyebrow, title, description }) {
+  return (
+    <header className="section-header">
+      <span className="eyebrow">{eyebrow}</span>
+      <h1>{title}</h1>
+      <p>{description}</p>
+    </header>
+  );
+}
